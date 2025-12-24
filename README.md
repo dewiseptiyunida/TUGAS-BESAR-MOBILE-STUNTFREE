@@ -60,11 +60,24 @@ Aplikasi ini menggunakan Firebase Authentication untuk proses:
 
 
 ## CHAT AI
-harus dijalanin dulu soalnya masih pake localhost, bisa diubah localhostnya lalu ketik python app.py makan di aplikasi yang diinstal akan jalan ai nya. makasi bapak.
+Fitur Chat AI menggunakan REST API berbasis Python yang saat ini dijalankan secara lokal (localhost).
 
+Langkah menjalankan backend Chat AI:
+1. Masuk ke direktori backend
+2. Jalankan perintah:
+   python app.py
+3. Pastikan alamat localhost sesuai dengan yang digunakan pada aplikasi Flutter
+   
 ## APK Download
 
 Link APK Android (app-release.apk):
 https://drive.google.com/drive/folders/1gLmNcX4XJcTRSontQ1u_0TDlV3z04yU2?usp=drive_link
+
+## Contact Person
+
+Ketua Tim:
+Nama: Dewi Septi Yunida
+No: 087875965325
+Email: dewiseptiyunida@gmail.com  
 
 
