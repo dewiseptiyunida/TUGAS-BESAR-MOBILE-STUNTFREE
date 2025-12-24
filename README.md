@@ -21,7 +21,7 @@ Aplikasi ini juga terintegrasi dengan supabase untuk rest api artikel
 
 ## Install Dependency
 
-'''bash
+bash
 flutter pub get
 
 ## Run Aplikasi
@@ -58,7 +58,13 @@ Aplikasi ini menggunakan Firebase Authentication untuk proses:
 - Registrasi pengguna
   Firebase diintegrasikan menggunakan package firebase_core dan firebase_auth.
 
+
+## CHAT AI
+harus dijalanin dulu soalnya masih pake localhost, bisa diubah localhostnya lalu ketik python app.py makan di aplikasi yang diinstal akan jalan ai nya. makasi bapak.
+
 ## APK Download
 
 Link APK Android (app-release.apk):
->>>>>>> 7faac4a (stuntfree frontend)
+https://drive.google.com/drive/folders/1gLmNcX4XJcTRSontQ1u_0TDlV3z04yU2?usp=drive_link
+
+
