@@ -47,16 +47,13 @@ class _ProfilePageState extends State<ProfilePage> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        GestureDetector(
-                          onTap: vm.pickProfileImage,
-                          child: CircleAvatar(
-                            radius: 50,
-                            backgroundColor: Colors.white,
-                            backgroundImage: vm.profileImage != null
-                                ? FileImage(vm.profileImage!)
-                                : const AssetImage('assets/profile.png')
-                                      as ImageProvider,
-                          ),
+                        CircleAvatar(
+                          radius: 50,
+                          backgroundColor: Colors.white,
+                          backgroundImage: vm.profileImage != null
+                              ? FileImage(vm.profileImage!)
+                              : const AssetImage('assets/profile.png')
+                                    as ImageProvider,
                         ),
                         const SizedBox(height: 10),
                         Text(
